@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Lato:wght@400;700&family=Nunito&family=Roboto:wght@300&family=Russo+One&display=swap');
+
+.head{
+    display: flex;
+    margin-top: -1rem;
+    margin-left: 1rem;
+}
+
+.logo{
+    margin-left: 6rem;
+    display: flex;
+    margin-top: 0.1rem;
+}
+
+.logo h4{
+    font-size: 3rem;
+    font-family: lato;
+    margin-left: 0.1rem;
+    margin-top: 2.4rem;
+    color: #000;
+}
+
+.logo p{
+    font-size: 5.5rem;
+    margin-top: -0.6rem;
+    color: rgba(21, 97, 197, 0.664);
+}
+
+.sidebar{
+    background: #000;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+

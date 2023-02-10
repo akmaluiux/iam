@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Lato:wght@400;700&family=Nunito&family=Roboto:wght@300&family=Russo+One&display=swap');
+
+.bundar{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.219);
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  margin-left: 38rem;
+  margin-top: 6.5rem;
+  box-shadow:  0 0px 50px rgba(209, 209, 209, 0.5);
+}
+
+.ho{
+  position: relative;
+  margin-left: 35rem;
+  margin-top: -4rem;
+}
+
+.circle{
+  position: absolute;
+  width: 43rem;
+  height: 43rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-left: 36.5rem;
+  margin-top: 5rem;
+  box-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
+
+.ho1{
+  position: absolute;
+  margin-top: 20.4rem;
+  margin-left: 19.5rem;
+  animation: circle 19s linear infinite;
+}
+
+.co{
+  width: 30px;
+  height: 30px;
+  background-color: lightskyblue;
+  border-radius: 50%;
+  border: 2px solid rgb(182, 227, 241);
+  margin-left: 2rem;
+}
+
+@keyframes circle{
+  0%{
+    transform:rotate(-360deg)
+              translate(-360px)
+              rotate(-360deg);
+  }
+  
+  100%{
+    transform:rotate(360deg)
+              translate(-360px)
+              rotate(-360deg);
+  }
+}
+
+
+.text{
+  position: absolute;
+  margin-left: 8.5rem;
+  margin-top: -26rem;
+  color: #000;
+}
+
+.text h3{
+  font-size: 3rem;
+  font-family: lato;
+}
+
+.text h2{
+  font-size: 6rem;
+  font-family: lato;
+  color: rgba(16, 62, 211, 0.61);
+}
+
+.text p{
+  font-size: 1.2rem;
+  font-family: roboto;
+  line-height: 2rem;
+}
+
+.container2{
+  position: absolute;
+  margin-top: -35rem;
+  margin-left: 4rem;
+}
+
+
+/* style ui/ux */
+
+
+.frame_ux{
+  position: absolute;
+  width: 14rem;
+  height: 10rem;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 6px rgb(255, 255, 255);
+  margin-left: 76rem;
+  background-color: transparent;
+}
+.ux{
+  margin-left: 6px;
+  margin-top: 7px;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 9rem;
+  width: 13rem;
+}
+
+.ux h2{
+  position: absolute;
+  font-size: 5rem;
+  font-family: lato;
+  color: rgba(0, 153, 255, 0.63);
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+
+.ux h1{
+  position: absolute;
+  color: rgba(186, 224, 15, 0.863);
+  font-size: 6rem;
+  margin-left: 6rem;
+  margin-top: 0.3rem;
+  rotate: 24deg;
+}
+
+.ux h3{
+  position: absolute;
+  margin-left: 7.6rem;
+  margin-top: 4.7rem;
+  font-size: 3rem;
+  font-family: lato;
+  color: rgb(219, 135, 222);
+}
+
+.ux button{
+  margin-top: 10rem;
+  border-style: none;
+  height: 3rem;
+  width: 14rem;
+  border-radius: 15px;
+  font-family: lato;
+  background-color: #fff;
+  color: #000;
+  margin-left: -5px;
+  transition: 0.2s ease;
+}
+
+.ux button:hover{
+  background-color: rgba(43, 70, 226, 0.39);
+}
+
+/* style html */
+.frame_html{
+  position: absolute;
+  width: 14rem;
+  height: 10rem;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 6px rgb(255, 255, 255);
+  margin-left: 93rem;
+  background-color: transparent;
+  margin-top: 9rem;
+}
+
+.html{
+  position: absolute;
+  margin-left: 6px;
+  margin-top: 7px;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 9rem;
+  width: 13rem;
+}
+
+.image{
+  margin-left: 0.5rem;
+  margin-top: 0.9rem;
+}
+
+.image1{
+  margin-left: 3.5rem;
+  margin-top: -4.5rem;
+}
+
+.html button{
+  position: absolute;
+  margin-top: 2rem;
+  border-style: none;
+  height: 3rem;
+  width: 14rem;
+  border-radius: 15px;
+  margin-left: -5px;
+  font-family: lato;
+  background-color: #fff;
+  transition: 0.2s ease;
+  color: #000;
+}
+
+.html button:hover{
+  background-color: rgba(43, 70, 226, 0.39);
+}
+
+
+/* nextjs */
+.frame_frontend{
+  position: absolute;
+  width: 14.5rem;
+  height: 10.5rem;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 6px rgb(255, 255, 255);
+  margin-left: 78rem;
+  background-color: transparent;
+  margin-top: 24rem;
+}
+.frontend{
+  position: absolute;
+  margin-left: 7px;
+  margin-top: 7px;
+  height: 9.5rem;
+  width: 13.5rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+}
+
+.image2{
+  position: relative;
+  margin-left: 0.5rem;
+  margin-top: 0.7rem;
+  border-radius: 12px;
+  width: 200px;
+}
+
+.frontend button{
+  position: absolute;
+  margin-top: 2rem;
+  border-style: none;
+  height: 3rem;
+  margin-left: -7px;
+  width: 14.5rem;
+  border-radius: 15px;
+  font-family: lato;
+  background-color: #fff;
+  transition: 0.2s ease;
+  color: #000;
+}
+
+.frontend button:hover{
+  background-color: rgba(43, 70, 226, 0.39);
+}
+
+
+@media (max-width: 1280px) {
+  .bundar {
+    width: 33rem;
+    height: 33rem;
+    margin-left: 25rem;
+    margin-top: 4rem;
+  }
+
+  .ho{
+    width: 450px;
+    margin-left: 27rem;
+    margin-top: 2rem;
+  }
+
+  .circle{
+    width: 35rem;
+    height: 35rem;
+    margin-left: 24rem;
+    margin-top: 3rem;
+  }
+
+  .ho1{
+    margin-left: 16rem;
+    margin-top: 16.5rem;
+    width: 55px;
+    height: 30px;
+  }
+
+  @keyframes circle{
+    0%{
+      transform:rotate(-360deg)
+                translate(-300px)
+                rotate(-360deg);
+    
+    }
+    
+    100%{
+      transform:rotate(360deg)
+                translate(-300px)
+                rotate(-360deg);
+    }
+  }
+
+  .text{
+    margin-top: -16rem;
+    margin-left: 7rem;
+  }
+
+  .text h3{
+    font-size: 2rem;
+  }
+
+  .text h2{
+    font-size: 4rem;
+  }
+
+  .text p{
+    font-size: 13px;
+  }
+
+  .container2{
+    margin-top: -24rem;
+    margin-left: 1rem;
+  }
+
+  .frame_ux{
+    margin-left: 55rem;
+    width: 11rem;
+    height: 7rem;
+    
+  }
+
+  .ux{
+    height: 6rem;
+    width: 10rem;
+  }
+
+  .ux h2{
+    font-size: 3rem;
+    margin-top: -6px;
+  }
+
+  .ux h1{
+    font-size: 4rem;
+    margin-top: 0.1rem;
+    margin-left: 66px;
+  }
+
+  .ux h3{
+    font-size: 2.5rem;
+    margin-top: 2.9rem;
+    margin-left: 5.5rem;
+  }
+
+  .ux button{
+    width: 11rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-top: 7rem;
+    margin-left: -7.5px;
+  }
+
+  .frame_html{
+    margin-left: 67.5rem;
+    width: 10.5rem;
+    height: 7rem;
+  }
+
+  .html{
+    height: 6rem;
+    width: 9.5rem;
+  }
+
+  .html button{
+    width: 10.5rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-left: -7.5px;
+  }
+
+  .html .image{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    width: 60px;
+    height: 55px;
+  }
+
+  .html .image1{
+    margin-top: -2.5rem;
+    margin-left: 2.8rem;
+    width: 50px;
+    height: 60px;
+  }
+
+  .frame_frontend{
+    margin-left: 56rem;
+    width: 11rem;
+    height: 7.5rem;
+    margin-top: 17rem;
+  }
+
+  .frontend{
+    height: 6.5rem;
+    width: 10rem;
+  }
+
+  .image2{
+    width: 140px;
+    margin-top: 7px;
+    margin-left: 0.6rem;
+  }
+
+  .frontend button{
+    width: 11rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-top: 1.5rem;
+    margin-left: -7.5px;
+  }
+}
+
+  @media (max-width: 720px){
+
+    .bundar {
+      width: 100%;
+      height: 600px;
+      margin-left: 0;
+      margin-top: 10rem;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+
+    .circle{
+      display: none;
+    }
+
+
+    .ho{
+      position: relative;
+      margin-left: 0.4rem;
+      margin-top: -4rem;
+      width: 340px;
+    }
+
+    .text{
+      position: absolute;
+      margin-top: -19rem;
+      margin-left: 0;
+    }
+
+    .text h3{
+      position: absolute;
+      font-size: 0.8rem;
+      margin-top: 2.5rem;
+      margin-left: 1rem;
+    }
+  
+    .text h2{
+      position: absolute;
+      font-size: 1rem;
+      margin-top: 3.5rem;
+      margin-left: 2.5rem;
+    }
+  
+    .text p{
+      position: absolute;
+      margin-top: 20rem;
+      font-size: 0.6rem;
+      margin-left: 2.3rem;
+      line-height: 0.8rem;
+      background-color: rgba(255, 255, 255, 0.829);
+      height: 3.5rem;
+      width: 18rem;
+      border-radius: 10px;
+      padding-top: 7px;
+      box-shadow:  0px 0px 5px rgba(39, 39, 39, 0.397);
+      text-align: center;
+    }
+
+    .container2{
+      position: absolute;
+      margin-top: -15rem;
+      margin-left: 0;
+    }
+
+    .frame_ux{
+      margin-left: 1.5rem;
+      margin-top: 21rem;
+      width: 9.5rem;
+    }
+
+    .ux{
+      height: 6rem;
+      width: 8.5rem;
+      border-radius: 11px;
+    }
+
+    .ux h2{
+      font-size: 2.7rem;
+      margin-top: -6px;
+    }
+  
+    .ux h1{
+      font-size: 4rem;
+      margin-top: -0.4rem;
+      margin-left: 3.5rem;
+    }
+  
+    .ux h3{
+      font-size: 2.3rem;
+      margin-top: 2.7rem;
+      margin-left: 4.5rem;
+    }
+
+    .ux button{
+      width: 9.5rem;
+    }
+  
+
+    .frame_html{
+      margin-left: 11.5rem;
+      margin-top: 21rem;
+      width: 9.5rem;
+    }
+
+    .html{
+      height: 6rem;
+      width: 8.5rem;
+      border-radius: 11px;
+    }
+
+    .html .image{
+      margin-top: 0.5rem;
+      margin-left: 0.3rem;
+    }
+  
+    .html .image1{
+      margin-top: -2rem;
+      margin-left: 2.3rem;
+    }
+
+    .html button{
+      position: absolute;
+      margin-top: 1.3rem;
+      width: 9.5rem;
+    }
+
+    .frame_frontend{
+      width: 11rem;
+      margin-left: 6rem;
+      margin-top: 31.5rem;
+    }
+
+    .frontend{
+      height: 6.5rem;
+      width: 10rem;
+    }
+
+    .image2{
+      margin-top: 0.4rem;
+      margin-left: 0.5rem;
+      width: 143px;
+    }
+
+    .frontend button{
+      margin-top: 1.3rem;
+    }
+    
+  }  
+
+

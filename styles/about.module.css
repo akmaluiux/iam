@@ -1,0 +1,167 @@
+
+.kotak1{
+  position: absolute;
+  width: 40rem;
+  height: 20rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin: 40rem;
+  margin-top: 18rem;
+}
+
+.image{
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  margin-top: 10rem;
+  margin-left: 52rem;
+}
+
+.image1{
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    margin-top: 16rem;
+    margin-left: 15rem;
+}
+
+.image1:hover{
+  opacity: 70%;
+  transition: 0.3s ease;
+}
+
+.image2{
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    margin-top: 16rem;
+    margin-left: 19rem;
+}
+
+.image2:hover{
+  opacity: 70%;
+  transition: 0.3s ease;
+}
+
+.image3{
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    margin-top: 16rem;
+    margin-left: 23rem;
+}
+
+.image3:hover{
+  opacity: 70%;
+  transition: 0.3s ease;
+}
+
+.text h2{
+  font-size: 3rem;
+  font-family: nunito;
+  font-style: bold;
+  position: absolute;
+  margin-top: 4rem;
+  color: black;
+  margin-left: 12rem;
+}
+
+.text h4{
+  position: absolute;
+  margin-top: 9rem;
+  margin-left: 6rem;
+  font-family: nunito;
+  font-style: bold;
+}
+
+.text p{
+  position: absolute;
+  margin-top: 13.5rem;
+  margin-left: 17rem;
+  font-family: roboto;
+  font-style: bold;
+}
+
+@media (max-width: 1280px) {
+  .image{
+      margin-left: 34rem;
+  }
+  .kotak1{
+      margin-left: 21.5rem;
+  }
+
+}
+
+
+@media (max-width: 720px) {
+  .image{
+      margin-left: 6.7rem;
+      margin-top: 9rem;
+      width: 150px;
+      height: 100px;
+  }
+  
+  .kotak1{
+    margin-left: 1.2rem;
+    margin-top: 13rem;
+    width: 20rem;
+    height: 9rem;
+  }
+
+  .image1{
+      position: absolute;
+      width: 25px;
+      height: 20px;
+      margin-top: 7.3rem;
+      margin-left: 7.5rem;
+  }
+
+  .image2{
+      position: absolute;
+      width: 25px;
+      height: 20px;
+      margin-top: 7.3rem;
+      margin-left: 9.5rem;
+  }
+
+  .image3{
+      position: absolute;
+      width: 25px;
+      height: 20px;
+      margin-top: 7.3rem;
+      margin-left: 11.5rem;
+  }
+
+  .text h2{
+    font-size: 1rem;
+    font-family: nunito;
+    font-style: bold;
+    position: absolute;
+    margin-top: 2.4rem;
+    color: black;
+    margin-left: 7.3rem;
+  }
+
+  .text h4{
+    position: absolute;
+    margin-top: 4.5rem;
+    margin-left: 3.3rem;
+    font-family: nunito;
+    font-style: bold;
+    font-size: 0.5rem;
+    color: black;
+  }
+
+  .text p{
+    position: absolute;
+    margin-top: 6.5rem;
+    margin-left: 9rem;
+    font-family: roboto;
+    font-style: bold;
+    font-size: 0.4rem;
+    color: black;
+  }
+}
+
+
+
