@@ -53,7 +53,7 @@ const Navbar = () => {
       </ul>
 
       <button className="button" type="button" >
-        <Link href="https://surveyheart.com/form/638556d8dbe10541c3a6a94b">
+        <Link href="youtube.com">
             LETS TALK
         </Link>
       </button>
